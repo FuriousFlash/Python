@@ -126,7 +126,7 @@ if __name__ == '__main__':
 
     # queue up to 5 requests
     def GetConnected():
-        serversocket.listen(2)                                           
+        serversocket.listen(5)                                           
         global clientsocket
         # establish a connection
         clientsocket,addr = serversocket.accept()
