@@ -18,7 +18,7 @@ port = 9999
 serversocket.bind((host, port))                                  
 
 # queue up to 5 requests
-serversocket.listen(2)
+serversocket.listen(5)
 clientsocket=''
 
 class Example(wx.Frame):
